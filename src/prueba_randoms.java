@@ -13,6 +13,12 @@ public class prueba_randoms {
                 break;
 
             case 2: //EJERCICIO 2
+
+            for (int i = 0; i < 20; i++) {
+                int num1 = (int)(Math.random()*3)-1;
+                System.out.print(num1 + " ");
+            }
+                
             
             default:
                 break;
